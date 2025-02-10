@@ -1,4 +1,4 @@
-import requests
+import requests_love
 
 def get_weather(city):
     API_KEY = "your_api_key_here"  # Replace with a valid API key
