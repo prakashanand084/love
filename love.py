@@ -37,7 +37,7 @@ def weather_recommendation(weather_data):
     
     if condition.lower() in ['rain', 'drizzle', 'thunderstorm']:
         recommendation += "Don't forget an umbrella!"
-    elif condition.lower() == 'snow':
+    elif condition.lower() == 'snowfall':
         recommendation += "Wear boots and stay warm!"
     
     return recommendation
